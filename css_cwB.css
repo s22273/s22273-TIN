@@ -1,0 +1,14 @@
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+label.required {
+    color: #FF0000;
+}
+
+input, textarea, select, button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}

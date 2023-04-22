@@ -1,0 +1,23 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}

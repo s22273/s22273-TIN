@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4c - Walidacja formularza</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form id="walidacja-form">
+    <label for="pole-numeryczne">Pole numeryczne (wymagane):</label>
+    <input type="number" id="pole-numeryczne" required>
+    <p id="error-numeryczne" class="error" hidden>Proszę wypełnić pole numeryczne!</p>
+    <br>
+    <label for="pole-tekstowe">Pole tekstowe (wymagane):</label>
+    <input type="text" id="pole-tekstowe" required>
+    <p id="error-tekstowe" class="error" hidden>Proszę wypełnić pole tekstowe!</p>
+    <br>
+    <button type="submit">Wyślij</button>
+</form>
+<script src="4c.js"></script>
+</body>
+</html>
